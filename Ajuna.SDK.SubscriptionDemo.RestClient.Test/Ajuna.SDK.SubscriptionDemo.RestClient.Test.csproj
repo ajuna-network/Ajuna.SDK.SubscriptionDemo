@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+   <PropertyGroup>
+      <TargetFrameworks>net5.0;net6.0</TargetFrameworks>
+      <AssemblyName>Ajuna.SDK.SubscriptionDemo.RestClient.Test</AssemblyName>
+      <RootNamespace>Ajuna.SDK.SubscriptionDemo.RestClient.Test</RootNamespace>
+   </PropertyGroup>
+
+   <ItemGroup>
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+		<PackageReference Include="NUnit" Version="3.13.2" />
+		<PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
+		<PackageReference Include="coverlet.collector" Version="3.0.2" />
+	</ItemGroup>
+
+   <ItemGroup>
+      <PackageReference Include="Ajuna.ServiceLayer.Model" Version="0.1.10" />
+   </ItemGroup>
+   
+   <ItemGroup>      
+      <ProjectReference Include="..\Ajuna.SDK.SubscriptionDemo.RestClient\Ajuna.SDK.SubscriptionDemo.RestClient.csproj" />
+      <ProjectReference Include="..\Ajuna.SDK.SubscriptionDemo.RestClient.Mockup\Ajuna.SDK.SubscriptionDemo.RestClient.Mockup.csproj" />
+   </ItemGroup>
+</Project>

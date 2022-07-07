@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+   <PropertyGroup>
+      <TargetFramework>netstandard2.0</TargetFramework>
+      <AssemblyName>Ajuna.SDK.SubscriptionDemo.RestClient.Mockup</AssemblyName>
+      <RootNamespace>Ajuna.SDK.SubscriptionDemo.RestClient.Mockup</RootNamespace>
+   </PropertyGroup>
+   <ItemGroup>
+      <PackageReference Include="Ajuna.ServiceLayer.Model" Version="0.1.10" />
+   </ItemGroup>
+   <ItemGroup>      
+      <ProjectReference Include="..\Ajuna.SDK.SubscriptionDemo.RestClient\Ajuna.SDK.SubscriptionDemo.RestClient.csproj" />
+   </ItemGroup>
+</Project>

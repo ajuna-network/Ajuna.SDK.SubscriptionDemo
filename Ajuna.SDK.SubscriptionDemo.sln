@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjunaExample.SubscriptionDemo.RestService", "AjunaExample.SubscriptionDemo.RestService\AjunaExample.SubscriptionDemo.RestService.csproj", "{8D021A23-7FA2-4C1D-959D-1AD6E6717206}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajuna.SDK.SubscriptionDemo.Console", "Ajuna.SDK.SubscriptionDemo.Console\Ajuna.SDK.SubscriptionDemo.Console.csproj", "{F48911F0-79F3-4515-91DE-545945324789}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjunaExample.SubscriptionDemo.NetApi", "AjunaExample.SubscriptionDemo.NetApi\AjunaExample.SubscriptionDemo.NetApi.csproj", "{74193D29-4436-4CF5-8E80-463DDC6A2A2F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajuna.SDK.SubscriptionDemo.RestClient.Test", "Ajuna.SDK.SubscriptionDemo.RestClient.Test\Ajuna.SDK.SubscriptionDemo.RestClient.Test.csproj", "{E99BE264-E62A-40FD-9D85-D5E46FCE3ABA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjunaExample.SubscriptionDemo.RestClient", "AjunaExample.SubscriptionDemo.RestClient\AjunaExample.SubscriptionDemo.RestClient.csproj", "{443A0067-87D1-4615-9850-F126C25D919D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajuna.SDK.SubscriptionDemo.RestClient.Mockup", "Ajuna.SDK.SubscriptionDemo.RestClient.Mockup\Ajuna.SDK.SubscriptionDemo.RestClient.Mockup.csproj", "{A4D8D4A5-960D-42F1-B110-94EEF461B7CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjunaExample.SubscriptionDemo.RestClient.Mockup", "AjunaExample.SubscriptionDemo.RestClient.Mockup\AjunaExample.SubscriptionDemo.RestClient.Mockup.csproj", "{872B7ECF-EE7A-4AE1-9B87-F6DCE7A8E767}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajuna.SDK.SubscriptionDemo.RestClient", "Ajuna.SDK.SubscriptionDemo.RestClient\Ajuna.SDK.SubscriptionDemo.RestClient.csproj", "{F1EA06AF-8D2F-4E3C-B693-38DA3BC03E4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjunaExample.SubscriptionDemo.RestClient.Test", "AjunaExample.SubscriptionDemo.RestClient.Test\AjunaExample.SubscriptionDemo.RestClient.Test.csproj", "{D76F8B12-2100-4910-9FF5-CB866DF2FAED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajuna.SDK.SubscriptionDemo.RestService", "Ajuna.SDK.SubscriptionDemo.RestService\Ajuna.SDK.SubscriptionDemo.RestService.csproj", "{E99E73C8-EA69-4A29-AE7F-C3516F8BEE96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjunaExample.SubscriptionDemo.Console", "AjunaExample.SubscriptionDemo.Console\AjunaExample.SubscriptionDemo.Console.csproj", "{F48911F0-79F3-4515-91DE-545945324789}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajuna.SDK.SubscriptionDemo.NetApi", "Ajuna.SDK.SubscriptionDemo.NetApi\Ajuna.SDK.SubscriptionDemo.NetApi.csproj", "{E3AA49B7-3FEF-4E15-80CC-9EE06F89F302}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,29 +24,29 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8D021A23-7FA2-4C1D-959D-1AD6E6717206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D021A23-7FA2-4C1D-959D-1AD6E6717206}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D021A23-7FA2-4C1D-959D-1AD6E6717206}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D021A23-7FA2-4C1D-959D-1AD6E6717206}.Release|Any CPU.Build.0 = Release|Any CPU
-		{74193D29-4436-4CF5-8E80-463DDC6A2A2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74193D29-4436-4CF5-8E80-463DDC6A2A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{74193D29-4436-4CF5-8E80-463DDC6A2A2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{74193D29-4436-4CF5-8E80-463DDC6A2A2F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{443A0067-87D1-4615-9850-F126C25D919D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{443A0067-87D1-4615-9850-F126C25D919D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{443A0067-87D1-4615-9850-F126C25D919D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{443A0067-87D1-4615-9850-F126C25D919D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{872B7ECF-EE7A-4AE1-9B87-F6DCE7A8E767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{872B7ECF-EE7A-4AE1-9B87-F6DCE7A8E767}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{872B7ECF-EE7A-4AE1-9B87-F6DCE7A8E767}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{872B7ECF-EE7A-4AE1-9B87-F6DCE7A8E767}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D76F8B12-2100-4910-9FF5-CB866DF2FAED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D76F8B12-2100-4910-9FF5-CB866DF2FAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D76F8B12-2100-4910-9FF5-CB866DF2FAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D76F8B12-2100-4910-9FF5-CB866DF2FAED}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F48911F0-79F3-4515-91DE-545945324789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F48911F0-79F3-4515-91DE-545945324789}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F48911F0-79F3-4515-91DE-545945324789}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F48911F0-79F3-4515-91DE-545945324789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E99BE264-E62A-40FD-9D85-D5E46FCE3ABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E99BE264-E62A-40FD-9D85-D5E46FCE3ABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E99BE264-E62A-40FD-9D85-D5E46FCE3ABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E99BE264-E62A-40FD-9D85-D5E46FCE3ABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D8D4A5-960D-42F1-B110-94EEF461B7CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D8D4A5-960D-42F1-B110-94EEF461B7CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D8D4A5-960D-42F1-B110-94EEF461B7CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D8D4A5-960D-42F1-B110-94EEF461B7CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1EA06AF-8D2F-4E3C-B693-38DA3BC03E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1EA06AF-8D2F-4E3C-B693-38DA3BC03E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1EA06AF-8D2F-4E3C-B693-38DA3BC03E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1EA06AF-8D2F-4E3C-B693-38DA3BC03E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E99E73C8-EA69-4A29-AE7F-C3516F8BEE96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E99E73C8-EA69-4A29-AE7F-C3516F8BEE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E99E73C8-EA69-4A29-AE7F-C3516F8BEE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E99E73C8-EA69-4A29-AE7F-C3516F8BEE96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3AA49B7-3FEF-4E15-80CC-9EE06F89F302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3AA49B7-3FEF-4E15-80CC-9EE06F89F302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3AA49B7-3FEF-4E15-80CC-9EE06F89F302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3AA49B7-3FEF-4E15-80CC-9EE06F89F302}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

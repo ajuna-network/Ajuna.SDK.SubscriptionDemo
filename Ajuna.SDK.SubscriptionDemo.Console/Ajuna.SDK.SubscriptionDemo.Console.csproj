@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>Ajuna.SDK.SubscriptionDemo.Console</AssemblyName>
+        <RootNamespace>Ajuna.SDK.SubscriptionDemo.Console</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Ajuna.SDK.SubscriptionDemo.RestClient\Ajuna.SDK.SubscriptionDemo.RestClient.csproj" />
+    </ItemGroup>
+
+</Project>
