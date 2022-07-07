@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjunaExample.SubscriptionDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjunaExample.SubscriptionDemo.RestClient.Test", "AjunaExample.SubscriptionDemo.RestClient.Test\AjunaExample.SubscriptionDemo.RestClient.Test.csproj", "{D76F8B12-2100-4910-9FF5-CB866DF2FAED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjunaExample.SubscriptionDemo.Console", "AjunaExample.SubscriptionDemo.Console\AjunaExample.SubscriptionDemo.Console.csproj", "{1D2959B7-D53F-4068-A53B-7EB8792D281A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjunaExample.SubscriptionDemo.Console", "AjunaExample.SubscriptionDemo.Console\AjunaExample.SubscriptionDemo.Console.csproj", "{F48911F0-79F3-4515-91DE-545945324789}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,9 +44,9 @@ Global
 		{D76F8B12-2100-4910-9FF5-CB866DF2FAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D76F8B12-2100-4910-9FF5-CB866DF2FAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D76F8B12-2100-4910-9FF5-CB866DF2FAED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1D2959B7-D53F-4068-A53B-7EB8792D281A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1D2959B7-D53F-4068-A53B-7EB8792D281A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1D2959B7-D53F-4068-A53B-7EB8792D281A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1D2959B7-D53F-4068-A53B-7EB8792D281A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F48911F0-79F3-4515-91DE-545945324789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48911F0-79F3-4515-91DE-545945324789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48911F0-79F3-4515-91DE-545945324789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48911F0-79F3-4515-91DE-545945324789}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
