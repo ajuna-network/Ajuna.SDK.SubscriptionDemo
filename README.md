@@ -38,6 +38,10 @@ In order to run this project, you will need:
 - A [Substrate node running locally](https://github.com/ajuna-network/Ajuna).
 - A running instance of both the `Ajuna.SDK.SubscriptionDemo.RestService` and the `Ajuna.SDK.SubscriptionDemo.Console` projects.
 
+### Endpoints
+The Rest Service exposes two endpoints with the following Urls:
+- Rest API: http://localhost:61752/swagger/index.html
+- WebSocket: http://localhost:61752/ws
 
 ## Community
 
