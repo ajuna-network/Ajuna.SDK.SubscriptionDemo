@@ -7,12 +7,11 @@ namespace Ajuna.SDK.SubscriptionDemo.Console
 {
     internal static class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             // Create BaseSubscriptionClient and connect
             var subscriptionClient = new BaseSubscriptionClient(new ClientWebSocket());
-            subscriptionClient.ConnectAsync(new Uri($"{GetBaseAddress().Replace("http", "ws")}/ws"), CancellationToken.None)
-                .Wait();
+            await subscriptionClient.ConnectAsync(new Uri($"{GetBaseAddress().Replace("http", "ws")}/ws"), CancellationToken.None);
              
             // Assign Generic Handler for Storage Change
             subscriptionClient.OnStorageChange = HandleChange;
@@ -27,9 +26,7 @@ namespace Ajuna.SDK.SubscriptionDemo.Console
             var systemControllerClient = new SystemControllerClient(httpClient, subscriptionClient);
 
             // Subscribe to Number Changes
-            var subscribeNumberTask = systemControllerClient.SubscribeNumber();
-            subscribeNumberTask.Wait();
-            var subscribedSuccessfully = subscribeNumberTask.Result;
+            var subscribedSuccessfully = await systemControllerClient.SubscribeNumber();
             
             // Continue only if Subscription has succeeded
             if (subscribedSuccessfully)
@@ -47,16 +44,15 @@ namespace Ajuna.SDK.SubscriptionDemo.Console
             bool listenForStorageChanges = true;
             while (listenForStorageChanges)
             {
-                var receiveTask =  subscriptionClient.ReceiveNextAsync(CancellationToken.None);
-                receiveTask.Wait();
-                
+                await subscriptionClient.ReceiveNextAsync(CancellationToken.None);
+
                 if (System.Console.KeyAvailable && System.Console.ReadKey().Key == ConsoleKey.Escape)
                 {
                     listenForStorageChanges = false;
                 }
             }
          
-            // Close Connection 
+            // Close Websocket Connection 
             subscriptionClient.CloseAsync(WebSocketCloseStatus.Empty,"",CancellationToken.None).Wait();
         }
         
