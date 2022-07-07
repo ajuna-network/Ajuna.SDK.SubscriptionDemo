@@ -1,0 +1,14 @@
+{
+   "projects": {
+      "net_api": "AjunaExample.SubscriptionDemo.NetApi",
+      "rest_service": "AjunaExample.SubscriptionDemo.RestService",
+      "rest_client": "AjunaExample.SubscriptionDemo.RestClient"
+   },
+   "metadata": {
+      "websocket": "ws://127.0.0.1:9944",
+      "runtime": "ajuna_solo_runtime"
+   },
+   "rest_client_settings": {
+      "service_assembly": "AjunaExample.SubscriptionDemo.RestService.dll"
+   }
+}
